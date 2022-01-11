@@ -6,9 +6,7 @@ use Illuminate\Http\Request;
 class MovieController extends Controller
 {
     public function index(){
-        ddd(Movie::all());
-        /* $movies = Movie::all();
-        dd($movies); */
-        return view('welcome');
+         $movies = Movie::all();
+        return view('home', compact('movies'));
     }
 }
