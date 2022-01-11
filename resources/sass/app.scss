@@ -1,1 +1,13 @@
 @use "bootstrap";
+body {
+    background-color: gray;
+    .container {
+        .row {
+            gap: 15px;
+            .card {
+                width: 250px;
+                text-align: center;
+            }
+        }
+    }
+}

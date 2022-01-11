@@ -12173,3 +12173,16 @@ fieldset:disabled .btn {
   }
 }
 
+body {
+  background-color: gray;
+}
+
+body .container .row {
+  gap: 15px;
+}
+
+body .container .row .card {
+  width: 250px;
+  text-align: center;
+}
+
